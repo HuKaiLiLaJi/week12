@@ -23,75 +23,75 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/register',
+    path: '/week12/register',
     name: 'Register',
     component: RegisterView
   },
   {
-    path: '/login',
+    path: '/week12/login',
     name: 'Login',
     component: LoginView
   },
   {
-    path: '/GetAllBookAPI',
+    path: '/week12/GetAllBookAPI',
     name: 'GetAllBookAPI',
     component: GetAllBookAPI
   },
   {
-    path: '/UserAPI',
+    path: '/week12/UserAPI',
     name: 'UserAPI',
     component: UserAPI
   },
   {
-    path: '/week12/admin',
+    path: '/week12/week12/admin',
     name: 'Admin',
     component: AdminView,
     meta: { requiresAuth: true } // need login
   },
   {
-    path: '/sendMail',
+    path: '/week12/sendMail',
     name: 'SendMail',
     component: SendMailView,
     meta: { requiresAuth: true } // need login
   },
   {
-    path: '/addBook',
+    path: '/week12/addBook',
     name: 'AddBook',
     component: AddBookView,
     meta: { requiresAuth: true } // need login
   },
   {
-    path: '/logout',
+    path: '/week12/logout',
     name: 'Logout',
     component: LogoutView,
     meta: { requiresAuth: true } // need login
   },
   {
-    path: '/WeatherCheck',
+    path: '/week12/WeatherCheck',
     name: 'WeatherCheck',
     component: WeatherView,
     meta: { requiresAuth: true } // need login
   },
   {
-    path: '/map',
+    path: '/week12/map',
     name: 'Map',
     component: MapView,
     meta: { requiresAuth: true } // need login
   },
   {
-    path: '/pathNav',
+    path: '/week12/pathNav',
     name: 'PathNav',
     component: PathView,
     meta: { requiresAuth: true } // need login
   },
   {
-    path: '/ai',
+    path: '/week12/ai',
     name: 'GenAI',
     component: GenAIView,
     meta: { requiresAuth: true } // need login
   },
   {
-    path: '/dashboard',
+    path: '/week12/dashboard',
     name: 'Dashboard',
     component: DashboardView,
     meta: { requiresAuth: true, admin: true } // need admin login
@@ -109,13 +109,13 @@ router.beforeEach((to, from, next) => {
     const user = sessionStorage.getItem('user')
     const role = sessionStorage.getItem('role')
     if (user == null || user == '') {
-      next('/login'); // if not login
+      next('/week12/login'); // if not login
     } else {
       if (to.matched.some(record => record.meta.admin)) {
         if (role == 'admin') {
           next(); // admin user
         } else {
-          next('/admin');  // if not admin
+          next('/week12/admin');  // if not admin
         }
       } else {
         next(); // logined user

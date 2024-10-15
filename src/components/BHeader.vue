@@ -3,7 +3,7 @@
   <link rel="icon" href="/favicon.ico">
   <div class="container">
     <header class="d-flex justify-content-center py-2 border-bottom">
-      <a href="/home" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <a href="/week12/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <img class="d-block mx-auto" src="/Tools.png" alt="Tools" width="40" height="32">
         <span class="fs-4">Tools</span>
       </a>
@@ -40,9 +40,9 @@
         </li>
       </ul>
       <div class="col-md-3 text-end">
-        <button v-if="user == null || user == ''" type="button" class="btn btn-outline-primary me-2"><router-link to="/login" class="nav-link">Login</router-link></button>
-        <button v-if="user == null || user == ''" type="button" class="btn btn-outline-success me-2"><router-link to="/register" class="nav-link">Sign-up</router-link></button>
-        <button v-if="user != null && user != ''" type="button" class="btn btn-outline-secondary me-2"><router-link to="/logout" class="nav-link">{{ user }}</router-link></button>
+        <button v-if="user == null || user == ''" type="button" class="btn btn-outline-primary me-2"><router-link to="/week12/login" class="nav-link">Login</router-link></button>
+        <button v-if="user == null || user == ''" type="button" class="btn btn-outline-success me-2"><router-link to="/week12/register" class="nav-link">Sign-up</router-link></button>
+        <button v-if="user != null && user != ''" type="button" class="btn btn-outline-secondary me-2"><router-link to="/week12/logout" class="nav-link">{{ user }}</router-link></button>
       </div>
     </header>
   </div>

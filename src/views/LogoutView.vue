@@ -19,7 +19,7 @@ const logout = () => {
 
   console.log(fireAuth.currentUser)
   signOut(fireAuth)
-  router.push("/")
+  router.push("/week12/")
     .then(() => {
       location.reload()
     })
