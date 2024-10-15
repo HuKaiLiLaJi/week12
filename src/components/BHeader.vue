@@ -18,7 +18,7 @@
           <router-link to="/UserAPI" class="nav-link" active-class="active">Users API</router-link>
         </li>
         <li v-if="user != null && user !== ''" class="nav-item">
-          <router-link to="/admin" class="nav-link" active-class="active" aria-current="page">Admin</router-link>
+          <router-link to="/week12/admin" class="nav-link" active-class="active" aria-current="page">Admin</router-link>
         </li>
         <li v-if="user != null && user !== ''" class="nav-item">
           <router-link to="/addBook" class="nav-link" active-class="active">Add Book</router-link>

@@ -10,7 +10,7 @@ import Aura from '@primevue/themes/aura'
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
-// Your web app's Firebase configuration
+// Your web app's Firebase router
 const firebaseConfig = {
   apiKey: "AIzaSyAqyLCGo__iRXwuP_G9UUrCCKgZ8ebBHA0",
   authDomain: "week7-yupeng.firebaseapp.com",

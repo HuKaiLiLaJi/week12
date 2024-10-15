@@ -45,7 +45,7 @@ const submitForm = async () => {
       console.log("No matching documents found.");
     }
 
-    router.push("/admin")
+    router.push("/week12/admin")
       .then(() => {
         location.reload()
       })

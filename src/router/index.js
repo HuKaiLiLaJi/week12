@@ -43,7 +43,7 @@ const routes = [
     component: UserAPI
   },
   {
-    path: '/admin',
+    path: '/week12/admin',
     name: 'Admin',
     component: AdminView,
     meta: { requiresAuth: true } // need login
