@@ -9,34 +9,34 @@
       </a>
       <ul class="nav nav-pills">
         <li v-if="user != null && user !== '' && role == 'admin'" class="nav-item">
-          <router-link to="/dashboard" class="nav-link" active-class="active" aria-current="page">Dash</router-link>
+          <router-link to="/week12/dashboard" class="nav-link" active-class="active" aria-current="page">Dash</router-link>
         </li>
         <li v-if="user == null || user == ''" class="nav-item">
-          <router-link to="/GetAllBookAPI" class="nav-link" active-class="active">Books API</router-link>
+          <router-link to="/week12/GetAllBookAPI" class="nav-link" active-class="active">Books API</router-link>
         </li>
         <li v-if="user == null || user == ''" class="nav-item">
-          <router-link to="/UserAPI" class="nav-link" active-class="active">Users API</router-link>
+          <router-link to="/week12/UserAPI" class="nav-link" active-class="active">Users API</router-link>
         </li>
         <li v-if="user != null && user !== ''" class="nav-item">
           <router-link to="/week12/admin" class="nav-link" active-class="active" aria-current="page">Admin</router-link>
         </li>
         <li v-if="user != null && user !== ''" class="nav-item">
-          <router-link to="/addBook" class="nav-link" active-class="active">Add Book</router-link>
+          <router-link to="/week12/addBook" class="nav-link" active-class="active">Add Book</router-link>
         </li>
         <li v-if="user != null && user !== ''" class="nav-item">
-          <router-link to="/sendMail" class="nav-link" active-class="active" aria-current="page">Mail</router-link>
+          <router-link to="/week12/sendMail" class="nav-link" active-class="active" aria-current="page">Mail</router-link>
         </li>
         <li v-if="user != null && user !== ''" class="nav-item">
-          <router-link to="/WeatherCheck" class="nav-link" active-class="active">Weather</router-link>
+          <router-link to="/week12/WeatherCheck" class="nav-link" active-class="active">Weather</router-link>
         </li>
         <li v-if="user != null && user !== ''" class="nav-item">
-          <router-link to="/map" class="nav-link" active-class="active">Map</router-link>
+          <router-link to="/week12/map" class="nav-link" active-class="active">Map</router-link>
         </li>
         <li v-if="user != null && user !== ''" class="nav-item">
-          <router-link to="/pathNav" class="nav-link" active-class="active">Path</router-link>
+          <router-link to="/week12/pathNav" class="nav-link" active-class="active">Path</router-link>
         </li>
         <li v-if="user != null && user !== ''" class="nav-item">
-          <router-link to="/ai" class="nav-link" active-class="active">GenAI</router-link>
+          <router-link to="/week12/ai" class="nav-link" active-class="active">GenAI</router-link>
         </li>
       </ul>
       <div class="col-md-3 text-end">

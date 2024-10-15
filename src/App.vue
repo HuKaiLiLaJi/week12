@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     showHeader() {
-      return (this.$route.name !== 'UserAPI' && this.$route.name !== 'GetAllBookAPI');
+      return (this.$route.name !== '/week12/UserAPI' && this.$route.name !== '/week12/GetAllBookAPI');
     }
   }
 }
