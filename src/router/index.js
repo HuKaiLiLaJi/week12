@@ -18,7 +18,7 @@ import LogoutView from '@/views/LogoutView.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/home',
     name: 'Home',
     component: HomeView
   },

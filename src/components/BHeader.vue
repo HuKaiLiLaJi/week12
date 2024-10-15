@@ -3,7 +3,7 @@
   <link rel="icon" href="/favicon.ico">
   <div class="container">
     <header class="d-flex justify-content-center py-2 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <a href="/home" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <img class="d-block mx-auto" src="/Tools.png" alt="Tools" width="40" height="32">
         <span class="fs-4">Tools</span>
       </a>
