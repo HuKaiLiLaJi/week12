@@ -22,6 +22,7 @@ export default {
   },
   computed: {
     showHeader() {
+	  console.log(this.$route.name)
       return (this.$route.name !== '/week12/UserAPI' && this.$route.name !== '/week12/GetAllBookAPI');
     }
   }
